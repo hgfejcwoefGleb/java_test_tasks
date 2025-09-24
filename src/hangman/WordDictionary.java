@@ -8,7 +8,7 @@ public class WordDictionary {
       "ОБУЧЕНИЕ", "JAVA", "КОМПИЛЯТОР", "ИНТЕРПРЕТАТОР", "НОУТБУК",
             "ОПЫТ", "РАЗРАБОТКА", "ПОБЕДА", "БАЙТКОД", "АССЕМБЛЕР"
     };
-    private static final Random random = new Random()П;
+    private static final Random random = new Random();
 
     public static String getRandomWord(){
         return WORDS[random.nextInt(WORDS.length)];
